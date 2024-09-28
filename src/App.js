@@ -1,11 +1,7 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 
-import {
-  BrowserRouter as Router,
-  Routes,  // Updated from Switch to Routes
-  Route,
-} from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import Menu from './Menu/Menu';
 import Hero from './Hero/Hero';
